@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271977959312",
+    "project_id": "tiogo-da2b0",
+    "storage_bucket": "tiogo-da2b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271977959312:android:2387f82fc7114fae54ad15",
+        "android_client_info": {
+          "package_name": "com.example.tiogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271977959312-ls6qe2bpud06itlactocg17skvqjlplt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCWXv-F1WqPACH2bknO_U-AwkqywxIC_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271977959312-ls6qe2bpud06itlactocg17skvqjlplt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -46,12 +46,12 @@ class _MyAppState extends State<MyApp> {
         title: 'Fire cars',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.lightBlue,
+          primarySwatch: Colors.amber,
           textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
           visualDensity: VisualDensity.adaptivePlatformDensity,
           appBarTheme: AppBarTheme(backgroundColor: Colors.white),
           buttonTheme: ButtonThemeData(
-            buttonColor: Colors.lightBlue,
+            buttonColor: Colors.amber,
             textTheme: ButtonTextTheme.primary,
           ),
         ),

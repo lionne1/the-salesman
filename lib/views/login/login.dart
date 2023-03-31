@@ -33,7 +33,7 @@ class _LoginState extends State<Login> {
                 ),
               ),
               Text(
-                'The SalesMan',
+                'Fire Cars',
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.headline4?.copyWith(
                   color: Colors.black54,
@@ -43,7 +43,7 @@ class _LoginState extends State<Login> {
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
-                  'Trouvez votre logoment en quelques clicks',
+                  'Découvrez et partagez les meilleures voitures de luxes 2021',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.headline5?.copyWith(
                     color: Colors.black54,
@@ -74,7 +74,7 @@ class _LoginState extends State<Login> {
       try {
         final result = await InternetAddress.lookup('google.com');
         if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
-          setState(() {
+          setState(() async {
             inLoginProcess = true;
             AuthService().signInWithGoogle();
           });
